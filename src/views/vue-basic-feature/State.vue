@@ -46,7 +46,7 @@
 <script setup>
 import { ref } from "vue";
 import { useRouter } from "vue-router";
-import {arrowBackOutline } from "ionicons/icons";
+import { arrowBackOutline } from "ionicons/icons";
 
 const router =useRouter()
 
@@ -60,14 +60,14 @@ let nama = 'gg'
 const gantiNama = () => {
     console.log(nama)
     
-    nama = 'gg'
+    nama = 'gf'
 
     console.log(nama)
 }
 
 //variabel dengan ref
 
-let alamat = 'Magetan'
+let alamat = ref ('Magetan')
 
 const gantiAlamat = () => {
     alamat.value = 'Kawedanan'

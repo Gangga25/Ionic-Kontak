@@ -49,7 +49,7 @@
 <script setup>
 import { ref } from "vue";
 import { useRouter } from "vue-router";
-import {arrowBackOutline } from "ionicons/icons";
+import { arrowBackOutline } from "ionicons/icons";
 
 const router = useRouter()
 
@@ -67,7 +67,7 @@ const rubahKelamin = () => {
 
 const rubahGender = () => {
     
-    gender.value = gander.value == 1 ? 2 : 1
+    gender.value = gender.value == 1 ? 2 : 1
 }
 </script>
 
